@@ -57,13 +57,21 @@ This boxplot shows that the average of skill players ranks higher than the avera
 ```{r}
 favstats(pushups~position,data=mydata)
 ```
-
+This table says that, the the Median of the line players was about three times lower than the Median of the skill players.
 
 
 
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r}
+t.test(pushups~position,data=mydata)
+```
+The T test shows that, the p value is 0.0000009, which is considerably smaller than 0.05. The Conclusion is that we Reject the null hypothesis.
+
+
+
+
 
 
 # Discussion and Conclusion
