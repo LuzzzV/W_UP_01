@@ -47,6 +47,7 @@ Since the response variable is numerical and the explanatory variable is categor
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
+
 This boxplot shows that the average of skill players ranks higher than the average of the line players.
 
 ### Numerical Descriptive Results
@@ -67,7 +68,7 @@ This table says that, the the Median of the line players was about three times l
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-The T test shows that, the p value is 0.0000009, which is considerably smaller than 0.05. The Conclusion is that we Reject the null hypothesis.
+The T test shows that, the p value is 0.0000009, which is considerably smaller than 0.05. The Conclusion is that we Reject the null hypothesis since evidence on the T test shows there is a difference in the number of pushups between line players and skill players.
 
 
 
