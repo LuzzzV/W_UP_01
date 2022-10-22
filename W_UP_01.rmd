@@ -77,6 +77,6 @@ The T test shows that, the p value is 0.0000009, which is considerably smaller t
 
 # Discussion and Conclusion
 
-The question was the number of pushups on skill players and that on line players. Based on the t-test, it was shown that we would Reject the null hypothesis.
+The question was the number of pushups on skill players and that on line players. Based on the t-test, it was shown that we would Reject the null hypothesis of no difference in the  the average number of pushups of line vs skill players.  
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
